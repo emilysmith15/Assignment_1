@@ -18,7 +18,7 @@ The following columns were most relevant to the analysis:
 + "rideable_type": This is the only column that I kept that is only in the post-2019 data. I used it to analyze changes in e-bike vs. regular bike usage over time.
 
 
-The second is a dataset made manually using Citi Bike's pricing webpage, which can be found [here](https://citibikenyc.com/pricing), and accessing earlier versions of it using the [Wayback Machine](https://web.archive.org/). This dataset is called <code>/Citi_Bike_Prices.csv</code>.
+The second is a dataset made manually using Citi Bike's pricing webpage, which can be found [here](https://citibikenyc.com/pricing), and accessing earlier versions of it using the [Wayback Machine](https://web.archive.org/). This dataset is called <code>Citi_Bike_Prices.csv</code>.
 
 The following columns were most relevant to the analysis:
 + "Annual Membership" and "Day Pass": Used to analyze price changes over time. 
@@ -26,12 +26,12 @@ The following columns were most relevant to the analysis:
 
 # Methodology
 
-The notebook <code>/Citibike_June.ipynb</code> contains the cleaning, concatenating and analysis of the data. The following analyses were conducted: 
+The notebook <code>Citibike_June.ipynb</code> contains the cleaning, concatenating and analysis of the data. The following analyses were conducted: 
 
-1. Rides per year, over time. Stored in <code>/outputs</code> and called <code>/rides_per_June.csv</code>.
+1. Rides per year, over time. Stored in <code>/outputs</code> and called <code>rides_per_June.csv</code>.
 For this analysis I calculated how many rides were taken during June of each year of my analysis.
 
-2. Rides taken by members vs. casual users, over time. Stored in <code>/outputs</code> and called <code>/member_percentage.csv</code>. For this analysis, I grouped the data by year and counted it based on the "member_casual" column. Then, I used this to calculate what percent of total rides are being taken by members vs. casual users for June of each year, and reduced the final dataset to only include the percent taken by members.
+2. Rides taken by members vs. casual users, over time. Stored in <code>/outputs</code> and called <code>member_percentage.csv</code>. For this analysis, I grouped the data by year and counted it based on the "member_casual" column. Then, I used this to calculate what percent of total rides are being taken by members vs. casual users for June of each year, and reduced the final dataset to only include the percent taken by members.
 
 3. Change in duration, over time. Stored in <code>/outputs</code> and called <code>/duration_data.csv</code>. For this analysis, I calculated the average duration of rides for June of each year of my analysis. I then sorted the data by the duration in order to analyze. 
 
