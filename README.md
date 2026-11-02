@@ -4,11 +4,13 @@
 
 # Data
 
-Stored in <code>/data</code>.
+Raw data tored in <code>/data</code>.
+
+Samples of this raw data for this assignment submission can be found in <code>/samples</code>.
 
 This analysis includes 2 types of dataset.
 
-The first is Citi Bike ride data, sourced from Citi Bike's own open data webpage, which can be found [here](https://s3.amazonaws.com/tripdata/index.html). This is most of the raw data in <code>/data</code>. For this analysis, I used the data from June of every year since 2013 (including June 2026). June is regularly one of Citi Bike's busiest months. The data was recorded in two different, but similar ways, with the company moving from one to the other in 2019. See [here](https://citibikenyc.com/system-data) for more information on Citi Bike's ride data. The data has been cleaned so that it matches across all years, dropping and renaming some columns from each. 
+The first is Citi Bike ride data, sourced from Citi Bike's own open data webpage, which can be found [here](https://s3.amazonaws.com/tripdata/index.html). Samples of this raw data can be found in <code>/samples</code>. This is most of the raw data in <code>/data</code>. For this analysis, I used the data from June of every year since 2013 (including June 2026). June is regularly one of Citi Bike's busiest months. The data was recorded in two different, but similar ways, with the company moving from one to the other in 2019. See [here](https://citibikenyc.com/system-data) for more information on Citi Bike's ride data. There are samples of each version of the raw data. The one used between 2020 and 2026 is called <code>data_2026_sample.csv</code> and the one used between 2013 and 2019 is called <code>data_2019_sample.csv</code>. The data has been cleaned so that it matches across all years, dropping and renaming some columns from each. 
 
 The following columns were most relevant to the analysis:
 + "ended_at" and "started_at" (or "starttime" and "stoptime" for 2019 and earlier raw data): Used to calculate each ride's duration in order to find yearly averages.
