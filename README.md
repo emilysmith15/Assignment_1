@@ -4,7 +4,7 @@
 
 # Data
 
-Stored in <code>/data</code>
+Stored in <code>/data</code>.
 
 This analysis includes 2 types of dataset.
 
@@ -39,13 +39,13 @@ For this analysis I calculated how many rides were taken during June of each yea
 
 # Visualization
 
-In order to compare this analysis to the change in Citi Bike prices, I used my raw Citi Bike price data (found in <code>/data</code> and called <code>Citi_Bike_Prices.csv</code>). I charted this data in Data Wrapper to create a visualization, which can be found in <code<Annual-Cost-Data.png</code>.
+In order to compare this analysis to the change in Citi Bike prices, I used my raw Citi Bike price data (found in <code>/data</code> and called <code>Citi_Bike_Prices.csv</code>). I charted this data in Data Wrapper to create a visualization, which can be found in <code<Annual-Cost-Data.png</code>. It is also linked below. 
 
 [![Annual cost of a Citi Bike membership, for June of each year since 2013](Annual-Cost-Data.png)]([https://dwcdn.net](https://www.datawrapper.de/_/2ucfe/?v=3))
 
 # Outputs
 
-There are outputs for each analysis, as noted above. They are all stored in in <code>/data</code>
+There are outputs for each analysis, as noted above. They are all stored in in <code>/data</code>.
 
 # Running the Analysis Yourself
 
