@@ -27,24 +27,19 @@ The following columns were most relevant to the analysis:
 The notebook <code>/Citibike_June.ipynb</code> contains the cleaning, concatenating and analysis of the data. The following analyses were conducted: 
 
 1. Rides per year, over time. Stored in <code>/outputs</code> and called <code>/rides_per_June.csv</code>.
-For this analysis I calculated how many rides were taken every June. To do this, I just used a <code>value_counts</code> function and sorted the values by year.
+For this analysis I calculated how many rides were taken during June of each year of my analysis.
 
-2. Rides taken by members vs. casual users, over time. Stored in <code>/outputs</code> and called <code>/member_percentage.csv</code>.
-For this analysis, I grouped the data by year and counted it based on the "member_casual" column. Then, I used this to calculate what percent of total rides are being taken by members vs. casual users for June of each year, and reduced the final dataset to only include the percent taken by members.
+2. Rides taken by members vs. casual users, over time. Stored in <code>/outputs</code> and called <code>/member_percentage.csv</code>. For this analysis, I grouped the data by year and counted it based on the "member_casual" column. Then, I used this to calculate what percent of total rides are being taken by members vs. casual users for June of each year, and reduced the final dataset to only include the percent taken by members.
 
-3. Change in duration, over time. Stored in <code>/outputs</code> and called <code>/duration_data.csv</code>.
+3. Change in duration, over time. Stored in <code>/outputs</code> and called <code>/duration_data.csv</code>. For this analysis, I calculated the average duration of rides for June of each year of my analysis. I then sorted the data by the duration in order to analyze. 
 
-For this analysis, I calculated the average duration of rides for June of each year of my analysis. I then sorted the data by the duration in order to analyze. 
+4. Change in duration, over time, e-bikes only. Stored in <code>/outputs</code> and called <code>/duration_data_ebikes.csv</code>. For this analysis, I just calculated the average duration of rides for June of each year of my analysis, but this time I grouped the values by "rideable_type" and sorted the values by year.
 
-4. Change in duration, over time, e-bikes only. Stored in <code>/outputs</code> and called <code>/duration_data_ebikes.csv</code>.
-For this analysis, I just calculated the average duration of rides for June of each year of my analysis, but this time I grouped the values by "rideable_type" and sorted the values by year.
-
-5. Percent of rides using e-bikes, over time. Stored in <code>/outputs</code> and called <code>/ebike_percentage.csv</code>.
-For this analysis, I first had to create a dataset with the number of e-bike rides taken during June for each year of my analysis. I then merged this with a dataset I already had that contains the number of total rides there were for June of each year. Then, I used this dataset to calculate the percentage of total rides that were e-bikes vs. regular bikes for June of each year, reduced to include only the e-bike percentages. 
+5. Percent of rides using e-bikes, over time. Stored in <code>/outputs</code> and called <code>/ebike_percentage.csv</code>. For this analysis, I first had to create a dataset with the number of e-bike rides taken during June for each year of my analysis. I then merged this with a dataset I already had that contains the number of total rides there were for June of each year. Then, I used this dataset to calculate the percentage of total rides that were e-bikes vs. regular bikes for June of each year, reduced to include only the e-bike percentages. 
 
 # Outputs
 
-There are outputs for each analysis, as noted above. 
+There are outputs for each analysis, as noted above. They are all stored in in <code>/data</code>
 
 # Running the Analysis Yourself
 
