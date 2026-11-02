@@ -43,13 +43,13 @@ For this analysis I calculated how many rides were taken during June of each yea
 
 In order to compare this analysis to the change in Citi Bike prices, I used my raw Citi Bike price data (found in <code>/data</code> and called <code>Citi_Bike_Prices.csv</code>). I charted this data in Data Wrapper to create two visualizations.
 
-The first is <code<Annual-Cost-Data.png</code>. It charts the price of an annual Citi Bike membership, recorded for June of each year since Citi Bike's inception in New York City. 
+The first is <code>Annual-Cost-Data.png</code>. It charts the price of an annual Citi Bike membership, recorded for June of each year since Citi Bike's inception in New York City. 
 
 [![Annual cost of a Citi Bike membership during June of each year since 2013](Annual-Cost-Data.png)]([https://dwcdn.net](https://www.datawrapper.de/_/2ucfe/?v=3))
 
 The second is <code>Overtime-Cost-Data.png</code>. It charts the additional fees that users pay per minute when using a bike for longer than 30 minutes for members, and 45 minutes for non-members. This data was only available as a per minute rate for 2020 and after, so it excludes data from 2019 and before. It is also recorded for June of each year. 
 
-[![Cost of overtime fees for Citi Bike users, over time since 2020.](https://www.datawrapper.de/_/IaloT/)
+[![Cost of overtime fees for Citi Bike users, over time since 2020.](Overtime-Cost-Data.png)](https://www.datawrapper.de/_/IaloT/)
 
 # Outputs
 
