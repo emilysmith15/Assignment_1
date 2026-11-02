@@ -39,7 +39,7 @@ For this analysis I calculated how many rides were taken during June of each yea
 
 # Visualization
 
-In order to compare this analysis to the change in Citi Bike prices, I used my raw Citi Bike price data (found in <code>/data</code> and called <code>Citi_Bike_Prices.csv</code>). I charted this data in Data Wrapper to create a visualization, which can be found in <code</data_viz</code>.
+In order to compare this analysis to the change in Citi Bike prices, I used my raw Citi Bike price data (found in <code>/data</code> and called <code>Citi_Bike_Prices.csv</code>). I charted this data in Data Wrapper to create a visualization, which can be found in <code<Annual-Cost-Data.png</code>.
 
 # Outputs
 
