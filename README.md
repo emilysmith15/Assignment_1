@@ -35,7 +35,14 @@ For this analysis I calculated how many rides were taken during June of each yea
 
 4. Change in duration, over time, e-bikes only. Stored in <code>/outputs</code> and called <code>/duration_data_ebikes.csv</code>. For this analysis, I just calculated the average duration of rides for June of each year of my analysis, but this time I grouped the values by "rideable_type" and sorted the values by year.
 
-5. Percent of rides using e-bikes, over time. Stored in <code>/outputs</code> and called <code>/ebike_percentage.csv</code>. For this analysis, I first had to create a dataset with the number of e-bike rides taken during June for each year of my analysis. I then merged this with a dataset I already had that contains the number of total rides there were for June of each year. Then, I used this dataset to calculate the percentage of total rides that were e-bikes vs. regular bikes for June of each year, reduced to include only the e-bike percentages. 
+5. Percent of rides using e-bikes, over time. Stored in <code>/outputs</code> and called <code>/ebike_percentage.csv</code>. For this analysis, I first had to create a dataset with the number of e-bike rides taken during June for each year of my analysis. I then merged this with a dataset I already had that contains the number of total rides there were for June of each year. Then, I used this dataset to calculate the percentage of total rides that were e-bikes vs. regular bikes for June of each year, reduced to include only the e-bike percentages.
+
+# Visualization
+
+In order to compare this analysis to the change in Citi Bike prices, I used my raw Citi Bike price data (found in <code>/data</code> and called <code>Citi_Bike_Prices.csv</code>). I charted this data in Data Wrapper to create a visualization, which can be found in <code</data_viz</code>.
+
+It is also here: 
+<iframe title="The Annual Cost of Citi Bike Membership" aria-label="Line chart" id="datawrapper-chart-2ucfe" src="https://datawrapper.dwcdn.net/2ucfe/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="413" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
 
 # Outputs
 
